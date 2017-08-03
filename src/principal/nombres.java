@@ -23,6 +23,7 @@ public class nombres extends javax.swing.JFrame {
      */
     public nombres() {
         initComponents();
+        this.setLocationRelativeTo(null);
         this.tabla.setModel(model);
         model.addColumn("0");
         model.addColumn("1");
